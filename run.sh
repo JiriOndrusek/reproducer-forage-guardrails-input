@@ -1,1 +1,1 @@
-camel forage run --runtime=camel-main main-route.camel.yaml forage-agent-factory.properties --dep=mvn:io.kaoto.forage:forage-agent:1.0-SNAPSHOT --dep=mvn:io.kaoto.forage:forage-model-ollama:1.0-SNAPSHOT --dep=mvn:io.kaoto.forage:forage-guardrails-input:1.0-SNAPSHOT
+camel forage run --runtime=camel-main main-route.camel.yaml application.properties --logging-level=DEBUG --dep=mvn:io.kaoto.forage:forage-agent:1.0-SNAPSHOT --dep=mvn:io.kaoto.forage:forage-model-ollama:1.0-SNAPSHOT --dep=mvn:io.kaoto.forage:forage-guardrails-input:1.0-SNAPSHOT
